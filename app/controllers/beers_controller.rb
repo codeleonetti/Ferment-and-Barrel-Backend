@@ -3,6 +3,7 @@ class BeersController < ApplicationController
 
   # GET /beers
   def index
+    
     @beers = Beer.all
 
     render json: @beers

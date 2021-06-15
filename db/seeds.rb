@@ -11,7 +11,7 @@ Brewery.destroy_all
 #name = ["Bellwether", "Ale Asylum", "Black Label Brewery", "Sculpin Brewey", "7 Seas Brewey", "Four Eyes Brewery", "Whistle Punk Brewery", "Post Falls Brewery", "River City", "Hogs Wild Brewery"]
  10.times do
     Brewery.create(
-        img: "http://aleasylum.com/wp-content/themes/ale-asylum/images/ale-asylum-logo.png",
+        img: "http://aleasylum.com/wp-content/uploads/2010/11/Satisfaction-Jacksin_black-300x268.png",
         name: Faker::Beer.brand,
         location: Faker::Address.secondary_address,
 
