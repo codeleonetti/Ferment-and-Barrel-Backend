@@ -3,14 +3,14 @@ class BreweriesController < ApplicationController
 
   # GET /breweries
   def index
-    if params[brewery_id]
+    if params[:brewery_id]
       @brewery = Brewery.find(params[:brewery_id])
       @breweries = @brewery.beers
     #grab beer ids for nested route
     else
       @breweries = Brewery.all
+  
     end
-
     render json: @breweries
   end
 
