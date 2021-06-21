@@ -16,6 +16,7 @@ class BreweriesController < ApplicationController
 
   # GET /breweries/1
   def show
+    set_brewerys
     render json: @brewery
   end
 
