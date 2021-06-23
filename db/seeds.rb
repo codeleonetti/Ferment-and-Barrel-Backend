@@ -47,9 +47,26 @@ Brewery.destroy_all
     )
 
     Brewery.create(
+        img: "https://lh3.googleusercontent.com/nB2VqVauDi-WawQF8CH5WdBDkl-dITm8cmA89HPZTeGQt14L-a39dDPO9yEmcaz92yWJSbow9CECYQR3KqAiQjcySXdEOg=s750",
+        name: "Lost Coast Brewery",
+        location: "Eureka, CA"
+
+    )
+
+    Brewery.create(
         img: "https://beer.untappd.com/labels/4266610",
         name: "Deshutes",
         location: "Portland, OR"
+    )
+    Brewery.create(
+        img: "https://static.wixstatic.com/media/82274c_30747083e0ff4e2c8ed904f8c0548ca5~mv2.png/v1/fill/w_280,h_235,al_c,lg_1,q_85/brewery%2520icon_edited.webp",
+        name: "Wisconsin Brewing Company",
+        location: "Verona, WI"
+    )
+    Brewery.create(
+        img: "https://upload.wikimedia.org/wikipedia/commons/d/db/New_Belgium_Brewing_Logo.png",
+        name: "New Belgium Brewing",
+        location: "Colorado"
 
     )
 
