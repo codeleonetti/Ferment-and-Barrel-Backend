@@ -26,14 +26,14 @@ Brewery.destroy_all
     )
 
     Brewery.create(
-        img: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/128537588_2037019576434693_8226559062277255296_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=a26aad&_nc_ohc=nrkqrJdBrY0AX_2dOi8&_nc_ht=scontent-sea1-1.xx&oh=af3c9dd1eaf778abf4a209276270b5db&oe=60D38804",
+        img: "https://untappd.akamaized.net/site/brewery_logos/brewery-183916_1209f.jpeg",
         name: "Black Label Brewery",
         location: "Spokane, WA"
 
     )
 
     Brewery.create(
-        img:"https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/117236932_2586790854968464_583820411608251507_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=l6qk2zoPqeAAX-5-R81&_nc_ht=scontent-sea1-1.xx&oh=04043cb2575bc543a53b4c971c965622&oe=60D3F6C3",
+        img:"http://static1.squarespace.com/static/55bb9275e4b08dd9a4e3cd3e/t/5691900e5a566828b96344c6/1622560313506/?format=1500w",
         name: "Post Falls Brewery",
         location: "Post Falls, ID"
 
